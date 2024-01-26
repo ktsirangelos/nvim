@@ -22,7 +22,7 @@ keymap(
 
 -- colorscheme
 keymap("n", "<leader>cn", ":colorscheme carbonfox<CR>", { desc = "[C]olorscheme [N]ight" })
-keymap("n", "<leader>cd", ":colorscheme dayfox<CR>", { desc = "[C]olorscheme [D]ay" })
+keymap("n", "<leader>cd", ":colorscheme nightfox<CR>", { desc = "[C]olorscheme [D]ay" })
 
 -- exit insert and terminal mode
 keymap("i", "jk", "<ESC>", default_opts)
